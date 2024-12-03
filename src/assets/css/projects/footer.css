@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.p-footer__inner {
+  padding-block: pxtorem(50px);
+  background-color: var(--bg-footer);
+
+  @media (--xxs) {
+    padding-block: clamp(50 / 16 * 1rem, 2.025rem + 4.69vw, 100 / 16 * 1rem);
+  }
+}
+
+.p-footer__button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: pxtorem(40px);
+  height: pxtorem(40px);
+
+  @media (--xxs) {
+    right: calc(20 / 375 * 100vw);
+  }
+
+  @media (--md) {
+    right: calc(20 / 768 * 100vw);
+    width: pxtorem(60px);
+    height: pxtorem(60px);
+  }
+
+  @media (--lg) {
+    right: calc(20 / 1024 * 100vw);
+    width: pxtorem(80px);
+    height: pxtorem(80px);
+  }
+
+  @media (--xl) {
+    right: calc(20 / 1440 * 100vw);
+  }
+}

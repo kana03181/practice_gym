@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.c-logo {
+  width: fit-content;
+  font-family: var(--font-sans-en);
+  line-height: 1;
+
+  img {
+    width: pxtorem(96px);
+    height: auto;
+    vertical-align: bottom;
+
+    @media (--xxs) {
+      width: clamp(96 / 16 * 1rem, 4.5rem + 7.5vw, 180 / 16 * 1rem);
+    }
+  }
+}
+
+.c-logo.-footer {
+  margin: 0 auto;
+}

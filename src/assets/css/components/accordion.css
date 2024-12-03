@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+summary {
+  list-style: none; /* デフォルトのアイコンを消す */
+}
+
+.c-accordion.-faq {
+  border-bottom: 1px solid var(--color-border-faq);
+}
+
+.c-accordion__wrapper.-faq {
+  margin-top: pxtorem(10px);
+}
+
+.c-accordion__inner {
+  position: relative;
+  display: block;
+}
+
+.c-accordion__inner.-faq {
+  position: relative;
+  display: block;
+  padding-block: pxtorem(20px) pxtorem(15px);
+}
+
+.c-accordion__inner::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 12px;
+  height: 7.4px;
+  margin: auto 0;
+  content: "";
+}
+
+.c-accordion__inner.-faq::before {
+  background-image: url("../../img/arrrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transform: rotate(-180deg);
+}
+
+details[open] .c-accordion__inner.-faq::before {
+  animation: open-accordion forwards;
+}
+
+@keyframes open-accordion {
+  0% {
+    transform: rotate(-180deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.c-accordion__box {
+  overflow: hidden;
+}
+
+.c-accordion__box__text {
+  position: relative;
+  display: block;
+}
+
+.c-accordion__box__text::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 0;
+  content: "";
+}
+
+.c-accordion__box__text.-faq {
+  padding-inline-start: pxtorem(40px);
+  font-size: pxtorem(15px);
+  line-height: 1.7;
+}
+
+.c-accordion__box__text.-q {
+  font-weight: 400;
+}
+
+.c-accordion__box__text.-q::before {
+  font-family: var(--font-sans-en);
+  font-size: pxtorem(26px);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--color-accent);
+  content: "Q";
+}
+
+.c-accordion__box__text.-a {
+  padding-block: 0 pxtorem(15px);
+  font-weight: 300;
+  line-height: 1.733;
+}
+
+.c-accordion__box__text.-a::before {
+  margin-inline-start: pxtorem(2px);
+  font-family: var(--font-sans-en);
+  font-size: pxtorem(26px);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--color-accent);
+  content: "A";
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.l-container {
+  container: container / inline-size;
+  box-sizing: content-box;
+  max-inline-size: var(--max-container-size, none);
+  padding-inline: var(--offset-lg, 0);
+  margin-inline: auto;
+
+  @media (--xxl) {
+    padding-inline: var(--offset-xl, 0);
+  }
+}
+
+.l-container.-price {
+  padding-inline: var(--offset-md, 0);
+}
+
+.l-container.-faq {
+  padding-inline: var(--offset-md, 0);
+
+  @media (--xxs) {
+    padding-inline: var(--offset-lg, 0);
+  }
+}

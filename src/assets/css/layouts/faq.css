@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+.l-faq {
+  margin-block: clamp(40 / 16 * 1rem, 2.06rem + 1.88vw, 60 / 16 * 1rem) clamp(50 / 16 * 1rem, 2.685rem + 1.88vw, 70 / 16 * 1rem);
+}

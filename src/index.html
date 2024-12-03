@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ENGBODY" />
+    <meta property="og:url" content="https://webdesigner-go.com/engbody/" />
+    <meta
+      property="og:description"
+      content="ENGBODYは英会話をしながらトレーニングができるパーソナルジムです。トレーナーはネイティブスピーカー！優しくて盛り上げな上手な外国人トレーナーがしっかりサポートします。"
+    />
+    <meta
+      name="description"
+      content="ENGBODYは英会話をしながらトレーニングができるパーソナルジムです。トレーナーはネイティブスピーカー！優しくて盛り上げな上手な外国人トレーナーがしっかりサポートします。"
+    />
+    <meta property="og:image" content="https://webdesigner-go.com/engbody/img/ogp.png" />
+    <title>ENGBODY</title>
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet" />
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "lll5fkg",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script type="module" src="/assets/js/main.js"></script>
+  </head>
+  <body>
+    <header class="l-header js-header">
+      <div class="p-header__inner">
+        <div class="p-header__items">
+          <h1 class="c-logo">
+            <a href="#"><img src="/assets/img/logo_header.svg" alt="ENGBODY" /></a>
+          </h1>
+          <p class="p-header__button">
+            <a href="#" class="c-button -header">無料カウンセリング<wbr />を受ける</a>
+          </p>
+        </div>
+        <!-- /.p-header__items -->
+      </div>
+      <!-- /.p-header__inner -->
+    </header>
+    <main>
+      <div class="l-hero">
+        <div class="p-hero__inner">
+          <div class="p-hero__body">
+            <div class="p-hero__texts">
+              <p class="p-hero__copy -en">
+                <span class="p-hero__copy__bg"><span lang="en" class="p-hero__copy__word">body make</span></span
+                ><wbr />
+                <span class="p-hero__copy__bg"
+                  ><span lang="en" class="p-hero__copy__word"><span class="p-hero__copy__amp">&amp;</span>english</span></span
+                >
+              </p>
+              <p class="p-hero__copy -ja">
+                <span class="p-hero__copy__bg">英会話&amp;パーソナルトレーニングジム</span>
+              </p>
+            </div>
+            <!-- /.p-hero__texts -->
+            <p class="p-hero__button"><a href="#" class="c-button -hero">無料カウンセリングを受ける</a></p>
+          </div>
+          <!-- /.p-hero__items -->
+          <div class="p-hero__img__wrap">
+            <figure class="p-hero__img">
+              <img
+                srcset="/assets/img/hero_img.jpg 1x, /assets/img/hero_img@2x.jpg 2x"
+                src="/assets/img/hero_img.jpg"
+                width="1060"
+                height="680"
+                alt="ストレッチをする黒いトレーニングウェアを着た女性"
+              />
+            </figure>
+          </div>
+          <!-- /.p-hero__img__wrap -->
+        </div>
+        <!-- /.p-hero__inner -->
+      </div>
+      <!-- /.l-hero -->
+      <section class="l-about">
+        <div class="p-about__heading">
+          <div class="p-about__inner -heading">
+            <h2 class="p-about__copy js-about__copy">
+              <span lang="en" class="p-about__copy__en">you can <wbr />do it!</span>
+              <strong class="p-about__copy__ja">英語とトレーニングの<span>蜜月関係</span></strong>
+            </h2>
+            <div class="p-about__copy__text">
+              <p class="p-about__copy__sentence">
+                <span class="c-line__break">Hey, guys! 英語を話している時ってなんだかテンションが上りませんか？</span>
+                バイブス高めでトレーニングをすれば、あなたのベストなパフォーマンスが出せます！<br />
+                <span class="c-line__break">英語と運動に自信がなくたってOK！</span
+                >優しくて盛り上げな上手な外国人トレーナーがしっかりサポートします。<br />
+                さぁ、ENGBODYで英語でパーソナルトレーニングを受けましょう。
+              </p>
+            </div>
+          </div>
+          <!-- /.p-about__inner -->
+        </div>
+        <!-- /.p-about__heading -->
+        <div class="p-about__contents">
+          <div class="p-about__content">
+            <div class="p-about__inner -text">
+              <div class="p-about__content__texts js-fadeIn">
+                <h3 class="p-about__content__title -ja">
+                  <span lang="en" class="p-about__content__title -en">training</span>
+                  セッションはすべて英語。<wbr />LAさながらの環境
+                </h3>
+                <p class="p-about__content__text">
+                  ネイティブスピーカーによる50分のパーソナルトレーニングはすべて英語です！アップテンポの洋楽が流れる空間でテンション高めのトレーナーが英語であなたのトレーニングを盛り上げてくれます。ダイエットでよく使う英語をまとめたオリジナルテキストもあるのでスピーキング学習もバッチリです！<br />
+                  英語に苦手意識がある方は日本人トレーナーも選べますのでご安心してください。
+                </p>
+              </div>
+              <!-- /.p-about__contents__texts -->
+            </div>
+            <!-- /.p-about__inner -text -->
+            <figure class="p-about__content__img">
+              <img
+                srcset="/assets/img/about_training.jpg 1x, /assets/img/about_training@2x.jpg 2x"
+                src="/assets/img/about_training.jpg"
+                width="1200"
+                height="694"
+                alt="トレーナーの女性と一緒にトレーニングをする女性"
+              />
+            </figure>
+          </div>
+          <!-- /.p-about__content -->
+          <div class="p-about__content">
+            <div class="p-about__inner -text">
+              <div class="p-about__content__texts js-fadeIn">
+                <h3 class="p-about__content__title -ja">
+                  <span lang="en" class="p-about__content__title -en">food</span>
+                  低糖質レストランを完備！<wbr />美味しく食べてダイエット
+                </h3>
+                <p class="p-about__content__text">
+                  食事制限って大変ですよね......。でも大丈夫！ENGBODY館内には低糖質レストラン『LCR』を完備しています。Low
+                  carb（低糖質）なのにとっても美味しい味に驚くはずです！メニューも豊富で飽きさせません。美味しく食べてしっかり痩せる！しかも英語力もアップ！それがENGBODYなのです。
+                </p>
+              </div>
+              <!-- /.p-about__contents__texts -->
+            </div>
+            <!-- /.p-about__inner -text -->
+            <figure class="p-about__content__img">
+              <img
+                srcset="/assets/img/about_food.jpg 1x, /assets/img/about_food@2x.jpg 2x"
+                src="/assets/img/about_food.jpg"
+                width="1200"
+                height="694"
+                alt="トレーナーの女性と一緒にトレーニングをする女性"
+              />
+            </figure>
+          </div>
+          <!-- /.p-about__content -->
+        </div>
+        <!-- /.p-about__contents -->
+        <p class="p-about__button"><a href="#" class="c-button -about">無料カウンセリングを受ける</a></p>
+      </section>
+      <section class="l-trainer">
+        <svg class="c-wave__bg -top" width="1440" height="96" viewBox="0 0 1440 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1440 64L1360 69.3C1280 75 1120 85 960 74.7C800 64 640 32 480 16C320 0 160 0 80 0H0V96H80C160 96 320 96 480 96C640 96 800 96 960 96C1120 96 1280 96 1360 96H1440V64Z"
+            fill="#EB51C2"
+          />
+        </svg>
+        <div class="p-trainer__bg">
+          <div class="l-container">
+            <h2 class="c-title">
+              <span lang="en" class="c-title__en -trainer">our trainer</span>
+              <span class="c-title__ja -trainer">トレーナー</span>
+            </h2>
+            <div class="c-tab js-tab">
+              <ul class="c-tab__menu">
+                <li class="c-tab__text js-tab__button is-active">トレーナー</li>
+                <li class="c-tab__text js-tab__button">スタッフ</li>
+              </ul>
+              <div class="c-tab__contents">
+                <div class="c-tab__content js-tab__content -trainer is-show">
+                  <div class="c-tab__content__inner">
+                    <div class="c-tab__content__item">
+                      <figure class="c-tab__content__img">
+                        <img
+                          srcset="/assets/img/trainer01.jpg 1x, /assets/img/trainer01.jpg 2x"
+                          src="/assets/img/trainer01.jpg"
+                          width="750"
+                          height="729"
+                          alt="日本人のトレーナー"
+                        />
+                      </figure>
+                      <p class="c-tab__content__text">こんにちは！英語で楽しくトレーニングしましょう。日本語が話せますのでご安心ください。</p>
+                    </div>
+                    <!-- /.c-tab__content__item -->
+                    <div class="c-tab__content__item">
+                      <figure class="c-tab__content__img">
+                        <img
+                          srcset="/assets/img/trainer02.jpg 1x, /assets/img/trainer02.jpg 2x"
+                          src="/assets/img/trainer02.jpg"
+                          width="750"
+                          height="729"
+                          alt="外国人の女性のトレーナー"
+                        />
+                      </figure>
+                      <p class="c-tab__content__text">Hello! 筋肉をつけすぎずしなやかな体を作ることが得意です！美しさを磨いていきましょう。</p>
+                    </div>
+                    <!-- /.c-tab__content__item -->
+                    <div class="c-tab__content__item">
+                      <figure class="c-tab__content__img">
+                        <img
+                          srcset="/assets/img/trainer03.jpg 1x, /assets/img/trainer03.jpg 2x"
+                          src="/assets/img/trainer03.jpg"
+                          width="750"
+                          height="731"
+                          alt="外国人の男性のトレーナー"
+                        />
+                      </figure>
+                      <p class="c-tab__content__text">
+                        Hi, 負荷や強度の高いトレーニングがしたいならおまかせてください！どんなご要望もできるかぎり叶えますよ！
+                      </p>
+                    </div>
+                    <!-- /.c-tab__content__item -->
+                  </div>
+                  <!-- /.c-tab__content__inner -->
+                </div>
+                <!-- /.c-tab__content -trainer -->
+                <div class="c-tab__content js-tab__content -staff">
+                  <div class="c-tab__content__inner">
+                    <div class="c-tab__content__item">
+                      <figure class="c-tab__content__img">
+                        <img
+                          srcset="/assets/img/staff01.jpg 1x, /assets/img/staff01.jpg 2x"
+                          src="/assets/img/staff01.jpg"
+                          width="737"
+                          height="728"
+                          alt="日本人の女性スタッフ"
+                        />
+                      </figure>
+                      <p class="c-tab__content__text">
+                        ENBODYは明るくてとっても楽しいジムです！みなさんのセッションが楽しくなるようしっかりサポートいたします。
+                      </p>
+                    </div>
+                    <!-- /.c-tab__content__item -->
+                    <div class="c-tab__content__item">
+                      <figure class="c-tab__content__img">
+                        <img
+                          srcset="/assets/img/staff02.jpg 1x, /assets/img/staff02.jpg 2x"
+                          src="/assets/img/staff02.jpg"
+                          width="738"
+                          height="728"
+                          alt="外国人の男性スタッフ"
+                        />
+                      </figure>
+                      <p class="c-tab__content__text">Hi, please let me know anytime if you have any questions. We will fully support you!</p>
+                    </div>
+                    <!-- /.c-tab__content__item -->
+                  </div>
+                  <!-- /.c-tab__content__inner -->
+                </div>
+                <!-- /.c-tab__content -trainer -->
+              </div>
+              <!-- /.c-tab__contents -->
+            </div>
+            <!-- /.c-tab -trainer -->
+          </div>
+          <!-- /.l-container -->
+        </div>
+        <!-- /.p-trainer__bg -->
+        <svg class="c-wave__bg -bottom" width="1440" height="96" viewBox="0 0 1440 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0 32.0001L80 26.7001C160 21.0001 320 11.0001 480 21.3C640 32.0001 800 64.0001 960 80.0001C1120 96.0001 1280 96.0001 1360 96.0001H1440V6.10352e-05H1360C1280 6.10352e-05 1120 6.10352e-05 960 6.10352e-05C800 6.10352e-05 640 6.10352e-05 480 6.10352e-05C320 6.10352e-05 160 6.10352e-05 80 6.10352e-05H0V32.0001Z"
+            fill="#EB51C2"
+          />
+        </svg>
+      </section>
+      <section class="l-studio">
+        <div class="l-container">
+          <h2 class="c-title">
+            <span lang="en" class="c-title__en -studio">studio</span>
+            <span class="c-title__ja -studio">スタジオ</span>
+          </h2>
+          <div class="p-studio__swiper__wrapper">
+            <div class="swiper c-swiper -studio">
+              <ul class="swiper-wrapper c-swiper-wrapper">
+                <li class="swiper-slide c-swiper-slide p-studio__swiper__slide">
+                  <figure class="c-swiper-slideImg p-studio__slideImg">
+                    <img
+                      srcset="/assets/img/studio01.jpg 1x, /assets/img/studio01.jpg 2x"
+                      src="/assets/img/studio01.jpg"
+                      width="1110"
+                      height="670"
+                      alt="ジムでトレーニングをする女性の後ろ姿"
+                    />
+                  </figure>
+                </li>
+                <!-- /.swiper-slide -->
+                <li class="swiper-slide c-swiper-slide p-studio__swiper__slide">
+                  <figure class="c-swiper-slideImg p-studio__slideImg">
+                    <img
+                      srcset="/assets/img/studio02.jpg 1x, /assets/img/studio02.jpg 2x"
+                      src="/assets/img/studio02.jpg"
+                      width="1110"
+                      height="670"
+                      alt="鏡に写るジムでトレーニングをする女性"
+                    />
+                  </figure>
+                </li>
+                <!-- /.swiper-slide -->
+                <li class="swiper-slide c-swiper-slide p-studio__swiper__slide">
+                  <figure class="c-swiper-slideImg p-studio__slideImg">
+                    <img
+                      srcset="/assets/img/studio03.jpg 1x, /assets/img/studio03.jpg 2x"
+                      src="/assets/img/studio03.jpg"
+                      width="1110"
+                      height="670"
+                      alt="ジムでトレーニングをする男性"
+                    />
+                  </figure>
+                </li>
+                <!-- /.swiper-slide -->
+              </ul>
+              <!-- /.swiper-wrapper -->
+            </div>
+            <!-- /.swiper -->
+            <div class="swiper-pagination c-swiper-pagination -studio"></div>
+            <!-- /.swiper-pagination -->
+            <div class="c-swiper__buttons">
+              <div class="swiper-button-prev c-swiper-button-prev -studio"></div>
+              <div class="swiper-button-next c-swiper-button-next -studio"></div>
+            </div>
+            <!-- /.c-button -swiper -->
+          </div>
+          <!-- /.c-swiper__wrapper -->
+        </div>
+        <!-- /.l-container -->
+      </section>
+      <section class="l-price">
+        <svg class="c-wave__bg -top" width="1440" height="96" viewBox="0 0 1440 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1440 64L1360 69.3C1280 75 1120 85 960 74.7C800 64 640 32 480 16C320 0 160 0 80 0H0V96H80C160 96 320 96 480 96C640 96 800 96 960 96C1120 96 1280 96 1360 96H1440V64Z"
+            fill="#EB51C2"
+          />
+        </svg>
+        <div class="p-price__bg">
+          <div class="l-container -price">
+            <h2 class="c-title">
+              <span lang="en" class="c-title__en -price">price</span>
+              <span class="c-title__ja -price">料金</span>
+            </h2>
+            <div class="p-price__swiper__wrapper">
+              <div class="swiper c-swiper -price">
+                <ul class="swiper-wrapper c-swiper-wrapper -price">
+                  <li class="swiper-slide c-swiper-slide p-price__swiper__slide">
+                    <div class="c-card -price">
+                      <h3 class="c-card__header -price">
+                        <span class="c-card__title -price">週１コース</span>
+                        <span class="c-card__text -price">¥20,000<small class="-sm">（入会金 ¥10000）</small></span>
+                      </h3>
+                      <div class="c-card__body">
+                        <div class="c-card__items p-price__items">
+                          <p class="c-card__itemName">レンタル</p>
+                          <p class="c-card__item">タオル、ウェア、プロテイン無料</p>
+                        </div>
+                        <div class="c-card__items p-price__items">
+                          <p class="c-card__itemName">レストラン</p>
+                          <p class="c-card__item">使用不可</p>
+                        </div>
+                        <div class="c-card__items p-price__items">
+                          <p class="c-card__itemName">食事指導</p>
+                          <p class="c-card__item">なし</p>
+                        </div>
+                      </div>
+                      <!-- /.c-card__body -->
+                    </div>
+                    <!-- /.c-card -price -->
+                  </li>
+                  <!-- /.swiper-slide -->
+                  <li class="swiper-slide c-swiper-slide p-price__swiper__slide">
+                    <div class="c-card p-price__card -price">
+                      <h3 class="c-card__header -price">
+                        <span class="c-card__title -price">週2コース</span>
+                        <span class="c-card__text -price">¥40,000<small class="-sm">（入会金 ¥10000）</small></span>
+                      </h3>
+                      <p class="p-price__label">オススメ！</p>
+                      <div class="c-card__body">
+                        <div class="c-card__items p-price__items">
+                          <p class="c-card__itemName">レンタル</p>
+                          <p class="c-card__item">タオル、ウェア、プロテイン無料</p>
+                        </div>
+                        <div class="c-card__items p-price__items">
+                          <p class="c-card__itemName">レストラン</p>
+                          <p class="c-card__item">使用不可</p>
+                        </div>
+                        <div class="c-card__items p-price__items">
+                          <p class="c-card__itemName">食事指導</p>
+                          <p class="c-card__item">なし</p>
+                        </div>
+                      </div>
+                      <!-- /.c-card__body -->
+                    </div>
+                    <!-- /.c-card -price -->
+                  </li>
+                  <!-- /.swiper-slide -->
+                  <li class="swiper-slide c-swiper-slide p-price__swiper__slide">
+                    <div class="c-card -price">
+                      <h3 class="c-card__header -price">
+                        <span class="c-card__title -price">無制限</span>
+                        <span class="c-card__text -price">¥70,000<small class="-sm">（入会金 ¥10000）</small></span>
+                      </h3>
+                      <div class="c-card__body">
+                        <div class="c-card__items p-price__items">
+                          <p class="c-card__itemName">レンタル</p>
+                          <p class="c-card__item">タオル、ウェア、プロテイン無料</p>
+                        </div>
+                        <div class="c-card__items p-price__items">
+                          <p class="c-card__itemName">レストラン</p>
+                          <p class="c-card__item">使用可</p>
+                        </div>
+                        <div class="c-card__items p-price__items">
+                          <p class="c-card__itemName">食事指導</p>
+                          <p class="c-card__item">あり</p>
+                        </div>
+                      </div>
+                      <!-- /.c-card__body -->
+                    </div>
+                    <!-- /.c-card -price -->
+                  </li>
+                  <!-- /.swiper-slide -->
+                </ul>
+                <!-- /.swiper-wrapper -->
+              </div>
+              <!-- /.swiper -->
+              <div class="c-swiper__scroll js-swiper__scroll">
+                <p class="c-swiper__scroll__text">スクロール</p>
+                <p class="c-swiper__scroll__img js-swiper__scroll__img">
+                  <img src="/assets/img/scroll_arrow.svg" alt="" />
+                </p>
+              </div>
+              <!-- /.c-swiper__scroll -->
+            </div>
+            <!-- /.c-swiper__wrapper -->
+          </div>
+          <!-- /.l-container -->
+        </div>
+        <!-- /.p-price__bg -->
+        <svg class="c-wave__bg -bottom" width="1440" height="96" viewBox="0 0 1440 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0 32.0001L80 26.7001C160 21.0001 320 11.0001 480 21.3C640 32.0001 800 64.0001 960 80.0001C1120 96.0001 1280 96.0001 1360 96.0001H1440V6.10352e-05H1360C1280 6.10352e-05 1120 6.10352e-05 960 6.10352e-05C800 6.10352e-05 640 6.10352e-05 480 6.10352e-05C320 6.10352e-05 160 6.10352e-05 80 6.10352e-05H0V32.0001Z"
+            fill="#EB51C2"
+          />
+        </svg>
+      </section>
+      <section class="l-faq">
+        <div class="l-container -faq">
+          <h2 class="c-title">
+            <span lang="en" class="c-title__en -faq">faq</span>
+            <span class="c-title__ja -faq">よくあるご質問</span>
+          </h2>
+          <div class="c-accordion__wrapper -faq">
+            <details class="c-accordion js-accordion -faq">
+              <summary class="c-accordion__items js-accordion__items">
+                <span class="c-accordion__inner -faq">
+                  <span class="c-accordion__box__text -q -faq">見学や体験は可能ですか？</span>
+                </span>
+              </summary>
+              <div class="c-accordion__box js-accordion__box">
+                <div class="c-accordion__box__inner -faq">
+                  <span class="c-accordion__box__text -a -faq">
+                    無料カウンセリングの際に見学が可能です。フォームに見学・体験希望の欄がございますので内容をご確認しチェックを入れてください。
+                  </span>
+                </div>
+              </div>
+            </details>
+            <details class="c-accordion js-accordion -faq">
+              <summary class="c-accordion__items js-accordion__items">
+                <span class="c-accordion__inner -faq">
+                  <span class="c-accordion__box__text -q -faq">用意するものは何がありますか？</span>
+                </span>
+              </summary>
+              <div class="c-accordion__box js-accordion__box">
+                <div class="c-accordion__box__inner -faq">
+                  <span class="c-accordion__box__text -a -faq"> シューズをご持参ください。ウェアとタオルは無料でレンタルが可能です。 </span>
+                </div>
+              </div>
+            </details>
+            <details class="c-accordion js-accordion -faq">
+              <summary class="c-accordion__items js-accordion__items">
+                <span class="c-accordion__inner -faq">
+                  <span class="c-accordion__box__text -q -faq">シャワールームはありますか？</span>
+                </span>
+              </summary>
+              <div class="c-accordion__box js-accordion__box">
+                <div class="c-accordion__box__inner -faq">
+                  <span class="c-accordion__box__text -a -faq">
+                    5つのシャワールームがございます。ボディソープ・シャンプー・リンスなどのアメニティやドライヤーもご用意しております。
+                  </span>
+                </div>
+              </div>
+            </details>
+          </div>
+          <!-- /.c-accordion__wrapper -->
+        </div>
+        <!-- /.l-container -->
+      </section>
+      <div class="l-join">
+        <div class="p-join__bg">
+          <div class="p-join__items">
+            <div class="p-join__bottom">
+              <div class="p-join__text">
+                <p lang="en" class="p-join__sentence">Come join us!! 😊</p>
+              </div>
+              <p class="p-join__button"><a href="#" class="c-button -join">無料カウンセリングを受ける</a></p>
+            </div>
+            <!-- /.p-join__top -->
+            <div class="p-join__top">
+              <figure class="p-join__img">
+                <picture>
+                  <source srcset="/assets/img/sp_cta.jpg 750w, assets/img/sp_cta@2x.jpg 1500w" media="(max-width:767px)" />
+                  <img
+                    srcset="/assets/img/pc_cta.jpg 1x, /assets/img/pc_cta@2x.jpg 2x"
+                    src="assets/img/pc_cta.jpg"
+                    width="1800"
+                    height="462"
+                    alt="仲良く肩を組む女性トレーナー3人"
+                  />
+                </picture>
+              </figure>
+            </div>
+            <!-- /.p-join__bottom -->
+          </div>
+          <!-- /.p-join__items -->
+        </div>
+        <!-- /.p-join__bg -->
+      </div>
+    </main>
+    <footer class="l-footer">
+      <div class="p-footer__inner">
+        <h1 class="c-logo -footer">
+          <a href="#"><img src="/assets/img/logo_footer.svg" alt="ENGBODY" /></a>
+        </h1>
+        <p class="p-footer__button">
+          <a href="#top" class="c-button-toTop -footer"><img src="/assets/img/arrow_up.svg" alt="" /></a>
+        </p>
+      </div>
+      <!-- /.p-footer__inner -->
+    </footer>
+  </body>
+</html>

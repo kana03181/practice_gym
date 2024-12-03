@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.p-header__inner {
+  padding: clamp(12 / 16 * 1rem, 0.464rem + 1.43vw, 28 / 16 * 1rem) pxtorem(8);
+
+  @media (--xxs) {
+    padding: clamp(12 / 16 * 1rem, 0.464rem + 1.43vw, 28 / 16 * 1rem) clamp(20 / 16 * 1rem, 0.982rem + 1.34vw, 35 / 16 * 1rem);
+  }
+}
+
+.p-header__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p-header__button {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease;
+  transition-property: visibility, opacity;
+}
+
+.is-active .p-header__button {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s ease;
+  transition-property: visibility, opacity;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.l-about {
+  max-width: 1440px;
+  padding-block-start: pxtorem(20px);
+  margin-block-start: pxtorem(-20px);
+  margin-inline: auto;
+  overflow: hidden;
+
+  @media (--xxs) {
+    padding-top: calc(20 / 375 * 100vw);
+  }
+
+  @media (--md) {
+    padding-top: calc(20 / 768 * 100vw);
+  }
+
+  @media (--lg) {
+    padding-top: calc(20 / 1024 * 100vw);
+  }
+
+  @media (--xl) {
+    padding-top: calc(20 / 1280 * 100vw);
+  }
+
+  @media (--xxl) {
+    padding-top: calc(20 / 1440 * 100vw);
+  }
+}

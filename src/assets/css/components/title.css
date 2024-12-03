@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.c-title {
+  display: grid;
+  gap: pxtorem(10px);
+  line-height: 1;
+}
+
+.c-title__en {
+  display: block;
+  font-size: clamp(40 / 16 * 1rem, 1.972rem + 2.25vw, 64 / 16 * 1rem);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.c-title__ja {
+  display: block;
+  font-size: clamp(14 / 16 * 1rem, 0.743rem + 0.56vw, 20 / 16 * 1rem);
+  font-weight: 600;
+}
+
+.c-title__en.-trainer,
+.c-title__en.-price {
+  color: var(--color-main);
+}
+
+.c-title__ja.-trainer,
+.c-title__ja.-price {
+  color: var(--color-main);
+}
+
+.c-title__ja.-studio {
+  color: var(--color-accent);
+}
+
+.c-title__ja.-faq {
+  color: var(--color-accent);
+}
+
+.c-title__en.-faq {
+  text-transform: uppercase;
+}

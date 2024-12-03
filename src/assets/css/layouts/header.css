@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.l-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: transparent;
+  transition: 0.3s ease;
+  transition-property: background-color;
+}
+
+.l-header.is-active {
+  background-color: var(--color-main);
+  transition: 0.3s ease;
+  transition-property: background-color;
+}

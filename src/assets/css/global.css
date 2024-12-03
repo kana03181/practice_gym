@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@layer settings, base, layouts, components, projects, utilities;
+
+/* Settings */
+@import "settings/variables" layer(settings);
+@import "settings/font" layer(settings);
+
+/* Base */
+@import "base/oreset" layer(base);
+
+/* Layouts */
+@import "layouts/container" layer(layouts);
+@import "layouts/header" layer(layouts);
+@import "layouts/hero" layer(layouts);
+@import "layouts/about" layer(layouts);
+@import "layouts/trainer" layer(layouts);
+@import "layouts/studio" layer(layouts);
+@import "layouts/faq" layer(layouts);
+@import "layouts/footer" layer(layouts);
+
+/* Components */
+@import "components/button" layer(components);
+@import "components/logo" layer(components);
+@import "components/title" layer(components);
+@import "components/wave" layer(components);
+@import "components/swiper" layer(components);
+@import "components/card" layer(components);
+@import "components/tab" layer(components);
+@import "components/lineBreak" layer(components);
+@import "components/accordion" layer(components);
+@import "components/swiper-bundle.min" layer(components);
+
+/* Projects */
+@import "projects/header" layer(projects);
+@import "projects/hero" layer(projects);
+@import "projects/about" layer(projects);
+@import "projects/trainer" layer(projects);
+@import "projects/studio" layer(projects);
+@import "projects/price" layer(projects);
+@import "projects/join" layer(projects);
+@import "projects/footer" layer(projects);
+
+/* utilities */
+@import "utilities/visually-hidden" layer(utilities);

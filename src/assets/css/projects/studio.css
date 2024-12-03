@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.p-studio__swiper__wrapper {
+  position: relative;
+  margin-block-start: pxtorem(30px);
+
+  @media (--xxs) {
+    margin-block-start: pxtorem(30px);
+  }
+}
+
+.p-studio__slideImg {
+  aspect-ratio: 315 / 189;
+  overflow: hidden;
+
+  @media (--lg) {
+    aspect-ratio: 1110 / 670;
+  }
+}

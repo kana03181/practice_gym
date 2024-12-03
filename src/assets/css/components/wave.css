@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.c-wave__bg {
+  width: 100%;
+  height: auto;
+}
+
+.c-wave__bg.-top {
+  transform: translateY(1px);
+}
+
+.c-wave__bg.-bottom {
+  transform: translateY(-1px);
+}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.l-studio {
+  margin-block-end: pxtorem(30px);
+
+  @media (--xxs) {
+    margin-block-end: clamp(34 / 16 * 1rem, 1.553rem + 2.44vw, 60 / 16 * 1rem);
+  }
+}
